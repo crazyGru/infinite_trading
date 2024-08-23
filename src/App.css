@@ -1,38 +1,65 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
+  background-color: #e0e0e0;
+  position: relative;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex: 1;
+}
+
+.content {
+  overflow-y: auto;
+  display: flex;
+  align-items: center;
+  background-color: #ebebeb;
+  min-width: 450px;
+  max-width: 540px;
+  width: 100%;
+}
+
+home {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+dashboard {
+  width: 100%;
+  height: calc(100% - 40px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+profile {
+  width: 100%;
+  height: calc(100% - 40px);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.dashboard-image {
+  border-color: #2e80d3;
+}
+
+.personal_profile {
+}
+
+.info_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  justify-content: space-between;
 }

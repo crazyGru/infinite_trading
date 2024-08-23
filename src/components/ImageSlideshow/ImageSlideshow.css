@@ -1,0 +1,35 @@
+.slideshow-container {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slideshow-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.slideshow-dots {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #717171;
+}
+
+img {
+    width: 100%;
+}

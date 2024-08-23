@@ -1,0 +1,44 @@
+header {
+  background-color: #f2f2f2; /* Skype blue */
+  color: white;
+  padding: 10px 20px; /* Add padding for spacing */
+  height: 60px; /* Set the header height */
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Center items vertically */
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between; /* Space between logo and links */
+  width: 100%; /* Ensure nav takes full width */
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container {
+  margin-left: auto; /* Push the login link to the right */
+}
+
+.logo {
+  max-width: none;
+  width: 120px; /* Adjust logo width */
+}
+
+nav a {
+  color: black; /* Link color */
+  text-decoration: none; /* Remove underline */
+  margin-left: 20px; /* Space between links */
+  font-weight: 500; /* Medium font weight */
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav a:hover {
+  color: #555555; /* Lighter color on hover */
+}
+
+.divider {
+  height: 24px; /* Adjust height for the divider */
+  border-left: 1px solid rgba(255, 255, 255, 0.5); /* Light divider */
+  margin: 0 15px; /* Space around the divider */
+}
